@@ -3084,9 +3084,9 @@ margin-left:40px
                   <b:comment>Nav primarily intended for sections that consist of major navigation blocks.</b:comment>
                   <nav role='navigation'>
                     <b:section class='clearboth' id='page_list_top' name='Page List (Top)' showaddelement='false'>
-                      <b:widget cond='!data:view.isPost' id='PageList1' locked='true' title='' type='PageList' visible='false'>
+                      <b:widget cond='!data:view.isPost' id='PageList1' locked='true' title='' type='PageList' visible='true'>
                         <b:widget-settings>
-                          <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"http://difa-winanda.blogspot.com/","position":0,"title":"Beranda"}}]]></b:widget-setting>
+                          <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"","position":1,"title":"Item 2"},"link0":{"href":"http://difa-winanda.blogspot.com/","position":0,"title":"Beranda"}}]]></b:widget-setting>
                           <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
